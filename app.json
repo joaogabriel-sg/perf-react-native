@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "perf-react-native",
+    "slug": "perf-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "perf-react-native"
+}
