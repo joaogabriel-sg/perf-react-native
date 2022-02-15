@@ -6,6 +6,7 @@ interface Props {
     id: number;
     name: string;
     likes: number;
+    online: string;
   };
   follow: () => void;
 }
@@ -20,6 +21,8 @@ function FriendComponent({ data, follow }: Props) {
       <TouchableOpacity onPress={follow}>
         <Text>Deixar de seguir</Text>
       </TouchableOpacity>
+
+      <Text>Online em {data.online}</Text>
     </View>
   );
 }
